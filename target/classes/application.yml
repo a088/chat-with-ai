@@ -1,0 +1,30 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/ry-vue?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: 123456
+  # 文件上传
+  servlet:
+    multipart:
+      # 单个文件大小
+      max-file-size: 10MB
+      # 设置总上传的文件大小
+      max-request-size: 20MB
+server:
+  port: 8085
+# 配置MyBatis日志
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    mapUnderscoreToCamelCase: true  #自动转驼峰 true开启
+  type-aliases-package: com.coffee.entity
+  mapper-locations: classpath*:mapper/*.xml,classpath*:mapper/**/*.xml
+
+minio:
+  endpoint: http://localhost:9000  # MinIO服务器的URL
+  access-key: minioadmin      # 访问密钥
+  secret-key: minioadmin      # 密钥密码
+  bucket-name: works     # 默认的Bucket名称
+  secure: false          # 是否使用HTTPS（如果使用HTTPS，请设置为true）
+
