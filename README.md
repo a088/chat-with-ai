@@ -22,6 +22,6 @@
 - 服务器以 `text/event-stream` 格式，持续向客户端推送数据。
 - 数据以事件流的形式发送。
 演示视频如下：
-<iframe src="【20250904_234813】 https://www.bilibili.com/video/BV16vaUzvEv6/?share_source=copy_web&vd_source=10f6538fd0ec8a1a585bed1a5dd7ae66" 
+<iframe src="https://www.bilibili.com/video/BV16vaUzvEv6/?share_source=copy_web&vd_source=10f6538fd0ec8a1a585bed1a5dd7ae66" 
         width="600" height="400" frameborder="0" allowfullscreen>
 </iframe>
