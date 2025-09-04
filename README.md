@@ -21,7 +21,10 @@
 - 浏览器通过 **EventSource** 发起请求，服务器保持连接不断开。
 - 服务器以 `text/event-stream` 格式，持续向客户端推送数据。
 - 数据以事件流的形式发送。
-演示视频如下：
-<iframe src="https://www.bilibili.com/video/BV16vaUzvEv6/?share_source=copy_web&vd_source=10f6538fd0ec8a1a585bed1a5dd7ae66" 
-        width="600" height="400" frameborder="0" allowfullscreen>
+### 演示视频如下：
+
+<iframe src="//player.bilibili.com/player.html?bvid=BV16vaUzvEv6&page=1" 
+        scrolling="no" border="0" frameborder="no" 
+        framespacing="0" allowfullscreen="true" 
+        width="600" height="400"> 
 </iframe>
