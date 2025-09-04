@@ -22,9 +22,4 @@
 - 服务器以 `text/event-stream` 格式，持续向客户端推送数据。
 - 数据以事件流的形式发送。
 ### 演示视频如下：
-
-<iframe src="//player.bilibili.com/player.html?bvid=BV16vaUzvEv6&page=1" 
-        scrolling="no" border="0" frameborder="no" 
-        framespacing="0" allowfullscreen="true" 
-        width="600" height="400"> 
-</iframe>
+<video src="20250904_234813.mp4" controls width="600"></video>
