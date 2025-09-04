@@ -21,5 +21,5 @@
 - 浏览器通过 **EventSource** 发起请求，服务器保持连接不断开。
 - 服务器以 `text/event-stream` 格式，持续向客户端推送数据。
 - 数据以事件流的形式发送。
-### 演示视频如下：
-[![演示视频](https://i0.hdslb.com/bfs/archive/你的封面图.jpg)](https://www.bilibili.com/video/BV16vaUzvEv6/?share_source=copy_web&vd_source=10f6538fd0ec8a1a585bed1a5dd7ae66)
+### 图片示例：
+[![AI聊天界面](be7c5d8f-255f-4693-96f9-1b7fd86ed883.png)](https://www.bilibili.com/video/BV16vaUzvEv6/?share_source=copy_web&vd_source=10f6538fd0ec8a1a585bed1a5dd7ae66)
